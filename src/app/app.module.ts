@@ -9,6 +9,7 @@ import { LoginComponent } from './components/login/login.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { SlideComponent } from './components/slide/slide.component';
 import { Carousel04Component } from './components/carousel04/carousel04.component';
+import { GaleriaScssComponent } from './components/galeria-scss/galeria-scss.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +19,14 @@ import { Carousel04Component } from './components/carousel04/carousel04.componen
     LoginComponent,
     GaleriaComponent,
     SlideComponent,
-    Carousel04Component
+    Carousel04Component,
+    GaleriaScssComponent
   ],
   imports: [
+    CarouselModule,
     BrowserModule,
-    AppRoutingModule,
-    CarouselModule
+    AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

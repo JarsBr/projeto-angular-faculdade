@@ -1,0 +1,51 @@
+.parent {
+    display: grid;
+    place-items: center;
+
+}
+
+.backgroud {
+
+    margin: 10px;
+    padding: 20px;
+    background-image: url("../../../assets/img/fundo-ob.png");
+    background-repeat: repeat;
+    border: 10px solid black;
+    border-radius: 10px;
+
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+  }
+
+.texto {
+    position: absolute;
+    top: 90%;
+    color: black;
+    left: 20%;
+    text-shadow: 10px 10px 10px black;
+    font-display: black;
+}
+
+.imagem {
+    display: inline-block;
+    position: relative;
+    border: 10px solid;
+    height: 500px;
+}
+
+img {
+    height: 500px;
+}
+

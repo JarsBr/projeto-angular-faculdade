@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
-  selector: 'app-galeria',
-  templateUrl: './galeria.component.html',
-  styleUrls: ['./galeria.component.css']
+  selector: 'app-galeria-scss',
+  templateUrl: './galeria-scss.component.html',
+  styleUrls: ['./galeria-scss.component.scss']
 })
-export class GaleriaComponent implements OnInit{
+export class GaleriaScssComponent implements OnInit{
   slides: any[] = new Array(3).fill({id: -1, src: '', title: '', subtitle: ''});
 
   constructor() { }
