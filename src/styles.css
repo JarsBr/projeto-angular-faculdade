@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: MinecraftRegular-Bmg3;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("../../projeto-angular\src\assets\font\MinecraftRegular-Bmg3.otf");
+}
+* {
+    font-family: MinecraftRegular-Bmg3;
+    color: white;
+    font-size: large;
+}
+body {
+    background-image: url("../src/assets/img/fundo.png");
+}
