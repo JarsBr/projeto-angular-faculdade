@@ -3,7 +3,7 @@
     font-family: MinecraftRegular-Bmg3;
 
     /*Caso a fonte esteja na mesma pasta*/
-    src: url("../../projeto-angular\src\assets\font\MinecraftRegular-Bmg3.otf");
+    src: url("assets/font/MinecraftRegular-Bmg3.otf");
 }
 * {
     font-family: MinecraftRegular-Bmg3;
