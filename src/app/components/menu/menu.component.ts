@@ -6,19 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-  private hamburger: HTMLElement | null = null;
-  private nav: HTMLElement | null = null;
 
   constructor() {}
 
-  ngOnInit() {
-    this.hamburger = document.querySelector(".hamburger") as HTMLElement;
-    this.nav = document.querySelector(".nav") as HTMLElement;
-    
-    if (this.hamburger) {
-      this.hamburger.addEventListener("click", () => {
-        if (this.nav) {
-          this.nav.classList.toggle("active");
+  ngOnInit(): void {
+    const hamburger = document.querySelector(".hamburger") as HTMLElement;
+    const nav = document.querySelector(".nav") as HTMLElement;
+    const img = document.getElementById('image-menu') as HTMLImageElement;
+
+    if (hamburger && nav) {
+      hamburger.addEventListener("click", () => {
+        if (nav.classList.contains("active")) {
+          nav.classList.remove("active");
+          img.src = "../../assets/img/bau-fechado.png";
+
+          if (img) {
+            
+          }
+        } else {
+          nav.classList.add("active");
+          img.src = "../../assets/img/bau_aberto.png";
         }
       });
     }

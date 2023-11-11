@@ -110,22 +110,23 @@ a {
     text-align: justify;
   }
 
-  .foto-spider {
-    display: none;
-  }
   .hamburger {
     display: block;
-    z-index: 1;
+    z-index: 99;
   }
+
   .nav-list {
     position: fixed;
+    z-index: 12;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    /*background: #ffffff;*/
+
+    background: #ffffff;
+    background-image: url("../../../assets/img/fundo-menu.png");
     clip-path: circle(
-      100px at 90% -15%
+      100px at 90% -25%
     ); /*Coloca uma 'mascara' por cima do menu que fica aberto 
         assim q esta no tamanho mobile*/
     transition: 1s ease-out;
@@ -172,11 +173,17 @@ a {
 
   .nav.active .hamburger {
     position: fixed;
+    z-index: 99;
     top: 20px;
     right: 16px;
     border-top-color: transparent;
-    transform: rotate(90deg); /* Gira o ícone em 90 graus */
+    /*transform: rotate(90deg); /* Gira o ícone em 90 graus */
     transition: 0.3s;
+  }
+
+   .nav.active #image-menu {
+    margin-top: -5px;
+    height: 72px;
   }
 
   .hero {

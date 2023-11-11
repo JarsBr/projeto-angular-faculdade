@@ -1,33 +1,27 @@
-<div class="parent">
-<c-carousel>
-  <div class="backgroud">
-    <c-carousel-indicators></c-carousel-indicators>
-    <c-carousel-inner>
-      <c-carousel-item *ngFor="let slide of slides">
-        <figure id="container">
-          <div class="imagem">
-        
-        <img
-          alt="{{slide.title}}"
-          class="d-block w-100"
-          loading="lazy"
-          src="{{slide.src}}"
-        />
-        <figcaption>Teste</figcaption>
-      
-          </div>
-        </figure>
-        <div class="texto">
-        <c-carousel-caption class="d-none d-md-block">
-          <h4>{{slide.title}}</h4>
-          <p>{{slide.subtitle}}</p>
-        </c-carousel-caption>
-      </div>
-      </c-carousel-item>
-    </c-carousel-inner>
-    <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+<div id="container">
 
-    <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+  <a routerLink="farm">
+  <div class="card">
+    <img src="../../../assets/img/foto1.png" alt="Imagem 1">
+    <p>
+      Farms
+    </p>
   </div>
-  </c-carousel>
+  </a>
+
+  <div class="card">
+    <img src="../../../assets/img/foto2.png" alt="Imagem 2">
+    <p>
+      Contruçoes
+    </p>
+  </div>
+
+  
+  <div class="card">
+    <img src="../../../assets/img/foto3.png" alt="Imagem 3">
+    <p>
+      Biomas
+    </p>
+  </div>
+
 </div>

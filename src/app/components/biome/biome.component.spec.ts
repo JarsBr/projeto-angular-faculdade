@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlideComponent } from './slide.component';
+import { BiomeComponent } from './biome.component';
 
-describe('SlideComponent', () => {
-  let component: SlideComponent;
-  let fixture: ComponentFixture<SlideComponent>;
+describe('BiomeComponent', () => {
+  let component: BiomeComponent;
+  let fixture: ComponentFixture<BiomeComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SlideComponent]
+      declarations: [BiomeComponent]
     });
-    fixture = TestBed.createComponent(SlideComponent);
+    fixture = TestBed.createComponent(BiomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

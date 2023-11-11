@@ -1,12 +1,5 @@
-<p>login works!</p>
-
-<div>
-  <fieldset>
-    <legend>ENTRE </legend>
-    <form action="#" method="post">
-      <fieldset>
-        <legend>LOGIN</legend>
-
+<div id="container">
+    <form>
         <p>
           <label for="nome">NickName: </label>
           <input
@@ -51,7 +44,7 @@
 
         <p>
             <label for="tempo">Quantos anos você tem?</label>
-            <input class="inputboxs" type="number" id="tempo" maxlength="2" placeholder="Quantos niveis de expeciencia?" size="30" requered="" />
+            <input class="inputboxs" type="number" id="tempo" maxlength="2" placeholder="Quantos niveis de expeciencia?" size="30" required="" />
           </p>
 
 
@@ -61,8 +54,7 @@
           <input type="radio" name="Area" value="0" checked />Não decidi ainda <br />
           <input type="radio" name="Area" value="1" />Aventureiro <br />
           <input type="radio" name="Area" value="2" />Construtor <br />
-          <input type="radio" name="Area" value="3" />Minerador <br />
-          <input type="radio" name="Area" value="4" />Mago da Redstone <br />
+          <input type="radio" name="Area" value="3" />Mago da Redstone <br />
         </p>
 
         <p>
@@ -74,28 +66,16 @@
           <input type="checkbox" name="css" id="css" value="css" />
           <label for="diretor">Farms</label>
           <br />
-          <input type="checkbox" name="java" id="java" value="java" />
-          <label for="diretor">Armas/Armaduras</label>
-          <br />
           <input type="checkbox" name="c++" id="c++" value="c++" />
-          <label for="diretor">Biomas/Animais</label>
-          <br />
-          <input type="checkbox" name="js" id="js" value="js" />
-          <label for="diretor">PVP</label>
+          <label for="diretor">Biomas</label>
           <br />
         </p>
 
-
-
-
-
-
-
-      </fieldset>
       <p align="center">
-        <input type="submit" name="Enviar" value="Enviar" />
         <input type="reset" name="Limpar" Value="Limpar" />
+        <a routerLink="">
+        <input type="submit" name="Enviar" value="Enviar" />
+      </a>
       </p>
     </form>
-  </fieldset>
 </div>
