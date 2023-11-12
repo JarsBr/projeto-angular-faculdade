@@ -9,6 +9,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { FarmComponent } from './components/farm/farm.component';
 import { BuildComponent } from './components/build/build.component';
 import { BiomeComponent } from './components/biome/biome.component';
+import { LobbyComponent } from './components/lobby/lobby.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { BiomeComponent } from './components/biome/biome.component';
     GaleriaComponent,
     FarmComponent,
     BuildComponent,
-    BiomeComponent
+    BiomeComponent,
+    LobbyComponent,
+    FooterComponent
   ],
   imports: [
     CarouselModule,

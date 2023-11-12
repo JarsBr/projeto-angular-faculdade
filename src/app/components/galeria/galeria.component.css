@@ -2,9 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-image: url("../../../assets/img/wood.png");
+  /*background-image: url("../../../assets/img/wood.png");*/
+  border: 6px solid black;
   background-repeat: repeat;
-  margin: 4%;
+  margin: 2%;
   border-radius: 5px;
 }
 

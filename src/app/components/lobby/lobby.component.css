@@ -1,0 +1,31 @@
+div.title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid black;
+    border-radius: 6px;
+    align-items: stretch;
+    background-image: url("../../../assets/img/fundo2.jpg");
+    width: 90%; /* ou outra unidade relativa desejada */
+    max-width: 900px; /* ou outra largura máxima desejada */
+    height: auto; /* Altura automática com base no conteúdo */
+    background-size: cover; /* Cobrirá toda a div com a imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+  }
+
+  h1.title {
+    display: inline;
+    font-size: 2em; /* ou outra unidade relativa desejada */
+    margin: 2%;
+  }
+
+  /* Adicione media queries conforme necessário para ajustar o layout em diferentes tamanhos de tela */
+  @media screen and (max-width: 600px) {
+    div.title {
+      width: 95%;
+
+    }
+  }
