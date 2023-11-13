@@ -1,12 +1,7 @@
 * {
   font-family: MinecraftRegular-Bmg3;
-  color: black;
   margin: 0;
   padding: 0;
-}
-
-.foto-spider {
-  float: right;
 }
 
 h2 {
@@ -37,6 +32,11 @@ h2 {
   margin: 10px 10px 10px 10%;
 }
 
+.logo-imagem {
+  height: 48px;
+  width: 64px;
+}
+
 body {
   /*background-color: #ffffff;*/
   /*background-image: url("../imgs/fundo.png");*/
@@ -44,17 +44,28 @@ body {
 }
 
 a {
+  border-radius: 10px;
+  padding: 10px;
   text-decoration: none;
+  /*background-image: url("../../../assets/img/fundo-menu.png");*/
+  /*border: 3px solid black;*/
+  
+}
+
+li a:hover {
+  color: black;
+  font-size: x-large;
+
 }
 
 .header {
   /*background: gray;*/
-  background-image: url("../../../assets/img/fundo-menu.png");
+  /*background-image: url("../../../assets/img/fundo-menu.png");
   /*background-size: contain;*/
   background-repeat: repeat;
-  border-radius: 10px;
+  /*border-radius: 10px;
   border-color: black;
-  border-style: solid;
+  border-style: solid;*/
   padding-inline: 16px;
 }
 
@@ -62,7 +73,6 @@ a {
   max-width: 1280px;
   height: 80px;
   margin-inline: auto;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +86,6 @@ a {
 
 .nav-list a {
   font-size: 18px;
-  color: black;
   padding-block: 16px; /*Bom para ajuda aumenta o tamnaho do botao no mobile*/
 }
 

@@ -42,7 +42,7 @@ export class FarmComponent {
       this.atualizarLegenda();
     });
 
-    // this.startAutoSlide(); // Inicia o slideshow
+    this.startAutoSlide(); // Inicia o slideshow
   }
 
   defClass(startPos: number, index: number): void {

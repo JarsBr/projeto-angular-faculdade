@@ -4,17 +4,18 @@
   align-items: stretch;
 }
 
+i {
+  font-size: x-large;
+}
+
 div.title {
   display: flex;
-  margin: 1%;
-  border: 5px solid black;
   align-items: stretch;
 }
 
 h1.title {
   display: inline;
   font-size: xx-large;
-
   margin: 2%;
   /*background-image: url("../../../assets/img/");*/
 }
@@ -28,6 +29,10 @@ h1.title {
   overflow: hidden;
   border-radius: 5px;
   border: 5px solid black;
+}
+
+.title:hover{
+  background-color: gray;
 }
 
 .slider img {
@@ -71,7 +76,7 @@ h1.title {
   height: 1.5rem;
   font-size: 2.5em;
   color: cornsilk;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: opacity 1s;
 }
 

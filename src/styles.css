@@ -10,8 +10,16 @@
     font-size: large;
 }
 body {
-    background-image: url("../src/assets/img/fundo3.jpg");
+    background-image: url("../src/assets/img/fundo.jpg");
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
+    /*filter:blur(10px);*/
+}
+
+@media (max-width: 750px) {
+    body{
+        background-size:auto;
+        background-repeat: repeat;
+    }
+
 }
