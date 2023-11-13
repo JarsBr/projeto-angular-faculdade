@@ -2,7 +2,6 @@
 @font-face{
     font-family: MinecraftRegular-Bmg3;
 
-    /*Caso a fonte esteja na mesma pasta*/
     src: url("assets/font/MinecraftRegular-Bmg3.otf");
 }
 * {
@@ -11,5 +10,8 @@
     font-size: large;
 }
 body {
-    background-image: url("../src/assets/img/fundo.png");
+    background-image: url("../src/assets/img/fundo3.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
