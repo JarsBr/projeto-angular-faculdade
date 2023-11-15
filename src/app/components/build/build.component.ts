@@ -15,10 +15,10 @@ export class BuildComponent {
   time: number = 7000; // Tempo padrão para apresentação de slides automática
 
   legendas: string[] = [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Legenda 1',
-    'Outra legenda interessante para a imagem 2',
-    'Legenda para a terceira imagem do slider',
-    'Última legenda para a imagem 4'
+    'Pequena Vila Pessoal - Esta construção é uma vila pessoal compacta e funcional. Inclui uma casa pequena para abrigo e armazenamento, um pequeno campo de trigo para agricultura, um poço de mina para acesso a recursos minerais e um local de encantamento para melhorar equipamentos. É uma base inicial completa, oferecendo as necessidades básicas para um jogador.',
+    'Central de Troca de Itens - Esta construção é um centro de comércio avançado, onde vários aldeões (villagers) oferecem diferentes itens e serviços. Geralmente, é um espaço organizado com áreas designadas para cada tipo de aldeão, permitindo a troca de itens valiosos e aquisição de materiais específicos por meio de negociações com os villagers.',
+    'Casa Pessoal como Mansão - Uma mansão branca com vidro nas entradas é uma construção esteticamente atraente e espaçosa. Ela apresenta um design elegante, geralmente com grandes janelas de vidro e espaços abertos, proporcionando uma sensação de modernidade e sofisticação. É uma casa pessoal ampla e bem decorada, oferecendo um ambiente luxuoso no mundo do jogo.',
+    'Nether Hub - Um Nether Hub é uma construção no Nether que serve como um ponto central de transporte e conexão entre várias localizações. Ele é projetado para ser altamente funcional, com trilhos, portais do Nether, túneis e sinalizações para facilitar a navegação e o acesso rápido a diferentes regiões no Nether, sendo uma peça fundamental para a conveniência na exploração deste ambiente perigoso.',
   ];
 
   constructor() {}
